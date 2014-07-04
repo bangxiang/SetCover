@@ -1,7 +1,8 @@
 # A SetCover Solver with the greedy algorithm  #
 
-This version of the greedy set cover is a well optimized linear version. 
 This is a C++ implementation of greedy SetCover solver, which is the best-possible polynomial time approximation algorithm for set cover.
+
+"The set covering problem (SCP) is a classical question in combinatorics, computer science and complexity theory." Refer http://en.wikipedia.org/wiki/Set_cover_problem for more details.
 
 ## How to use ##
 
