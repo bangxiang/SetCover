@@ -36,7 +36,7 @@ private:
      * we use sorted vector but not set to represent set of elems for performance consideration
      * Performance data from test case set_cover_perf:
      *                100 sets * (1M elems/set)          20 sets * (1M elems/set)
-     *     vector      1.5G, 33sec                         0.3G, 2sec
+     *     vector      0.8G, 17sec                         0.2G, 2sec
      *     set         >5G, >10minutes                     1.9G, 46sec
      */
     typedef std::vector<size_t> Elems;
